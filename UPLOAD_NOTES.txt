@@ -1,0 +1,11 @@
+IMPORTANT WHEN UPDATING THE LIVE WEBSITE
+
+The included includes/config.php has placeholder values. It is safe for sharing, but it will not connect to the live database.
+
+When uploading this revision, keep a backup of the working server file:
+public_html/skillspring/includes/config.php
+
+Upload the other revised files, then keep or restore the working config.php that already contains your DirectAdmin database values.
+
+Do not import sql/database.sql again unless you want to erase and rebuild the project database.
+After uploading CSS or JavaScript, use Ctrl+F5 to refresh the browser.
