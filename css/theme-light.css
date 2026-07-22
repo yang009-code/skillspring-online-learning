@@ -1,0 +1,26 @@
+/*
+ * Template 1: Light Professional
+ * This template keeps the regular three-column card layout.
+ */
+:root {
+    --page: #f4f7fb;
+    --surface: #ffffff;
+    --text: #1d2a38;
+    --link: #1f63a6;
+    --accent: #245f9e;
+    --header: #ffffff;
+    --headertext: #1d2a38;
+    --hover: #e8f1fb;
+    --border: #d6dee8;
+    --button: #245f9e;
+    --buttontext: #ffffff;
+    --secondary: #e7eef6;
+    --secondarytext: #1d2a38;
+    --input: #ffffff;
+    --badge: #e2eefb;
+    --badgetext: #1b568f;
+    --table: #edf3f8;
+    --footer: #18334f;
+    --footertext: #eef5fb;
+    --footerlink: #ffffff;
+}

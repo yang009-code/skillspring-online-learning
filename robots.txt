@@ -1,0 +1,5 @@
+# Allow search engines to read the public project pages.
+User-agent: *
+Allow: /
+
+Sitemap: https://yang1cz.myweb.cs.uwindsor.ca/skillspring/sitemap.xml

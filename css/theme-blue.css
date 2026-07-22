@@ -1,0 +1,62 @@
+/*
+ * Template 3: Blue Learning Portal
+ * It uses a centered header and compact four-column course layout.
+ */
+:root {
+    --page: #eef8ff;
+    --surface: #ffffff;
+    --text: #17304a;
+    --link: #006a99;
+    --accent: #0081b5;
+    --header: #075b82;
+    --headertext: #ffffff;
+    --hover: #0b709d;
+    --border: #b8dbea;
+    --button: #0081b5;
+    --buttontext: #ffffff;
+    --secondary: #d9f1fa;
+    --secondarytext: #17304a;
+    --input: #ffffff;
+    --badge: #d2f2ff;
+    --badgetext: #065d80;
+    --table: #dff3fb;
+    --footer: #064562;
+    --footertext: #eafaff;
+    --footerlink: #ffffff;
+}
+
+.site-header {
+    border-bottom: 5px solid #39b5d4;
+}
+
+.card,
+.hero,
+.chart-wrap {
+    border-radius: 2px;
+}
+
+.course-card {
+    padding: 14px;
+}
+
+.course-card img {
+    aspect-ratio: 16 / 8;
+    border-radius: 2px;
+}
+
+@media (min-width: 1050px) {
+    .header-row {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .main-nav {
+        justify-content: center;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Main public pages for the SkillSpring project. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://yang1cz.myweb.cs.uwindsor.ca/skillspring/</loc>
+    </url>
+    <url>
+        <loc>https://yang1cz.myweb.cs.uwindsor.ca/skillspring/courses.php</loc>
+    </url>
+    <url>
+        <loc>https://yang1cz.myweb.cs.uwindsor.ca/skillspring/categories.php</loc>
+    </url>
+    <url>
+        <loc>https://yang1cz.myweb.cs.uwindsor.ca/skillspring/learning-path.php</loc>
+    </url>
+    <url>
+        <loc>https://yang1cz.myweb.cs.uwindsor.ca/skillspring/media.php</loc>
+    </url>
+    <url>
+        <loc>https://yang1cz.myweb.cs.uwindsor.ca/skillspring/about.php</loc>
+    </url>
+    <url>
+        <loc>https://yang1cz.myweb.cs.uwindsor.ca/skillspring/contact.php</loc>
+    </url>
+    <url>
+        <loc>https://yang1cz.myweb.cs.uwindsor.ca/skillspring/help/index.php</loc>
+    </url>
+</urlset>
