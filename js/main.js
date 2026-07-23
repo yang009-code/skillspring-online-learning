@@ -68,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var labels = JSON.parse(canvas.getAttribute('data-labels') || '[]');
         var values = JSON.parse(canvas.getAttribute('data-values') || '[]');
         var context = canvas.getContext('2d');
+        var pageTextColor = window.getComputedStyle(document.body).color;
         var padding = 55;
         var maximum = 1;
         var a;
@@ -95,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
             context.fillStyle = '#2b78b8';
             context.fillRect(x, y, actualWidth, barHeight);
 
-            context.fillStyle = '#222222';
+            context.fillStyle = pageTextColor;
             context.textAlign = 'center';
             context.fillText(values[a], x + actualWidth / 2, y - 7);
 
