@@ -12,19 +12,20 @@ Covered in this folder:
 - more than 20 dynamic PHP pages
 - five static HTML pages
 - external CSS and JavaScript
-- 23 image files and three compressed MP4 files
+- 23 image files and three MP4 video files
 - image map and canvas chart
 - nine help pages and administrator help
 - installation, user, administrator, database, media, and update documents
 - comments in PHP, HTML, CSS, JavaScript, and SQL files
 - sitemap, robots file, meta descriptions, favicon, and image alt text
 
-Still needs the student to finish:
-1. Keep the working server includes/config.php. Do not overwrite it with the placeholder file in this ZIP.
-2. Add the exact Pexels creator names and video page links to docs/MEDIA_SOURCES.md.
-3. Add the final GitHub repository address to docs/README.md.
-4. Put the student's name and course details in file comments if the instructor asks for them.
-5. Change the sample admin and student passwords.
-6. Test every user and administrator feature on the live server.
-7. Test all three templates and use Ctrl+F5 after uploading CSS.
-8. Follow the instructor's rules for outside help and acknowledgements.
+FINAL LIVE-SERVER TESTS
+
+1. Test registration and login.
+2. Test the cart and demonstration checkout.
+3. Test My Courses, lessons, progress, and reviews.
+4. Test the administrator course, user, order, message, theme,
+   report, and monitor pages.
+5. Test all three templates.
+6. Test one desktop width and one mobile width.
+7. Use Ctrl+F5 after uploading revised CSS or JavaScript.

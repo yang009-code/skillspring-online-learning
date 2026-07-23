@@ -2,22 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <!-- This helps the page fit better on phones and smaller screens. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Basic page information for search engines. -->
     <meta name="description" content="Privacy policy for the SkillSpring course project.">
     <title>Privacy Policy | SkillSpring</title>
+
+    <!-- I use the same icon, CSS, and JavaScript files as the other pages. -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
     <link id="themeStylesheet" rel="stylesheet" href="css/theme-light.css">
     <script src="js/static-theme.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
+
 <body>
-    <!-- This is one of the static information pages. -->
+    <!-- This is the top part of the page with the logo and navigation. -->
     <header class="site-header">
         <div class="container header-row">
             <a class="brand" href="index.php">
                 <img src="images/logo.png" alt="SkillSpring logo">
             </a>
-            <nav class="main-nav open" aria-label="Information page navigation">
+
+            <!-- The menu button is used when the page is opened on a small screen. -->
+            <button
+                id="menuButton"
+                class="menu-button"
+                type="button"
+                aria-expanded="false"
+                aria-controls="mainNavigation">
+                Menu
+            </button>
+
+            <nav
+                id="mainNavigation"
+                class="main-nav"
+                aria-label="Information page navigation">
                 <a href="index.php">Home</a>
                 <a href="courses.php">Courses</a>
                 <a href="about.php">About</a>
@@ -26,18 +48,41 @@
         </div>
     </header>
 
+    <!-- The privacy information for the website is shown here. -->
     <main class="container">
         <section class="card narrow-card">
             <h1>Privacy Policy</h1>
-            <p>SkillSpring stores the information that is needed for the project to work. This includes a user name, email address, orders, enrolled courses, lesson progress, reviews, and contact messages.</p>
-            <p>Passwords are saved as password hashes. The site does not ask for a real credit card number, bank password, government identification number, or PayPal password.</p>
-            <p>An administrator can view user accounts and can disable an account when needed. This is a classroom demonstration, so users should not enter private or sensitive information.</p>
-            <p><a class="btn" href="index.php">Return to Home</a></p>
+
+            <p>
+                SkillSpring stores the information that is needed for the
+                project to work. This includes a user name, email address,
+                orders, enrolled courses, lesson progress, reviews, and
+                contact messages.
+            </p>
+
+            <p>
+                Passwords are saved as password hashes. The site does not ask
+                for a real credit card number, bank password, government
+                identification number, or PayPal password.
+            </p>
+
+            <p>
+                An administrator can view user accounts and can disable an
+                account when needed. This is a classroom demonstration, so
+                users should not enter private or sensitive information.
+            </p>
+
+            <p>
+                <a class="btn" href="index.php">Return to Home</a>
+            </p>
         </section>
     </main>
 
+    <!-- This is the footer at the bottom of the page. -->
     <footer class="site-footer">
-        <p class="copyright">&copy; 2026 SkillSpring Online Learning.</p>
+        <p class="copyright">
+            &copy; 2026 SkillSpring Online Learning.
+        </p>
     </footer>
 </body>
 </html>

@@ -2,22 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <!-- This setting makes the page work better on mobile screens. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Description and title for this page. -->
     <meta name="description" content="Terms of use for the SkillSpring course project.">
     <title>Terms of Use | SkillSpring</title>
+
+    <!-- These files control the page design, theme, and menu. -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
     <link id="themeStylesheet" rel="stylesheet" href="css/theme-light.css">
     <script src="js/static-theme.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
+
 <body>
-    <!-- This is one of the static information pages. -->
+    <!-- The header has the website logo and the main links. -->
     <header class="site-header">
         <div class="container header-row">
             <a class="brand" href="index.php">
                 <img src="images/logo.png" alt="SkillSpring logo">
             </a>
-            <nav class="main-nav open" aria-label="Information page navigation">
+
+            <!-- This button opens and closes the menu on a phone. -->
+            <button
+                id="menuButton"
+                class="menu-button"
+                type="button"
+                aria-expanded="false"
+                aria-controls="mainNavigation">
+                Menu
+            </button>
+
+            <nav
+                id="mainNavigation"
+                class="main-nav"
+                aria-label="Information page navigation">
                 <a href="index.php">Home</a>
                 <a href="courses.php">Courses</a>
                 <a href="about.php">About</a>
@@ -26,18 +48,40 @@
         </div>
     </header>
 
+    <!-- This section explains the basic rules for using the website. -->
     <main class="container">
         <section class="card narrow-card">
             <h1>Terms of Use</h1>
-            <p>SkillSpring is a fictional online course website made for a web development assignment. The courses, prices, instructors, support plans, and payment choices are only examples.</p>
-            <p>Visitors may use the public pages. Registered users may use the private course and order pages. Only an administrator may open the management pages.</p>
-            <p>Users should not try to damage the website, enter harmful code, or use another person’s account. The project data may be changed or removed while the site is being tested.</p>
-            <p><a class="btn" href="index.php">Return to Home</a></p>
+
+            <p>
+                SkillSpring is a fictional online course website made for a
+                web development assignment. The courses, prices, instructors,
+                support plans, and payment choices are only examples.
+            </p>
+
+            <p>
+                Visitors may use the public pages. Registered users may use
+                the private course and order pages. Only an administrator may
+                open the management pages.
+            </p>
+
+            <p>
+                Users should not try to damage the website, enter harmful
+                code, or use another person’s account. The project data may
+                be changed or removed while the site is being tested.
+            </p>
+
+            <p>
+                <a class="btn" href="index.php">Return to Home</a>
+            </p>
         </section>
     </main>
 
+    <!-- Simple footer used on this information page. -->
     <footer class="site-footer">
-        <p class="copyright">&copy; 2026 SkillSpring Online Learning.</p>
+        <p class="copyright">
+            &copy; 2026 SkillSpring Online Learning.
+        </p>
     </footer>
 </body>
 </html>

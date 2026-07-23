@@ -2,22 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <!-- This makes the layout adjust to different screen sizes. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title and a short description for search engines. -->
     <meta name="description" content="Refund information for the SkillSpring demonstration website.">
     <title>Refund Policy | SkillSpring</title>
+
+    <!-- The main design and script files are linked below. -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
     <link id="themeStylesheet" rel="stylesheet" href="css/theme-light.css">
     <script src="js/static-theme.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
+
 <body>
-    <!-- This is one of the static information pages. -->
+    <!-- Top area of the page with the logo and navigation menu. -->
     <header class="site-header">
         <div class="container header-row">
             <a class="brand" href="index.php">
                 <img src="images/logo.png" alt="SkillSpring logo">
             </a>
-            <nav class="main-nav open" aria-label="Information page navigation">
+
+            <!-- Users can press this button to open the mobile menu. -->
+            <button
+                id="menuButton"
+                class="menu-button"
+                type="button"
+                aria-expanded="false"
+                aria-controls="mainNavigation">
+                Menu
+            </button>
+
+            <nav
+                id="mainNavigation"
+                class="main-nav"
+                aria-label="Information page navigation">
                 <a href="index.php">Home</a>
                 <a href="courses.php">Courses</a>
                 <a href="about.php">About</a>
@@ -26,18 +48,40 @@
         </div>
     </header>
 
+    <!-- The refund information for this example website is placed here. -->
     <main class="container">
         <section class="card narrow-card">
             <h1>Refund Policy</h1>
-            <p>SkillSpring does not process real payments, so it does not issue real refunds. The checkout page only demonstrates how an order can be stored in a database.</p>
-            <p>The administrator can change an example order to Cancelled or Refunded. This shows the order-management part of the assignment.</p>
-            <p>A user may send a message from the Contact page when an order needs to be reviewed. A real business would need a more detailed refund deadline and payment procedure.</p>
-            <p><a class="btn" href="index.php">Return to Home</a></p>
+
+            <p>
+                SkillSpring does not process real payments, so it does not
+                issue real refunds. The checkout page only demonstrates how
+                an order can be stored in a database.
+            </p>
+
+            <p>
+                The administrator can change an example order to Cancelled or
+                Refunded. This shows the order-management part of the
+                assignment.
+            </p>
+
+            <p>
+                A user may send a message from the Contact page when an order
+                needs to be reviewed. A real business would need a more
+                detailed refund deadline and payment procedure.
+            </p>
+
+            <p>
+                <a class="btn" href="index.php">Return to Home</a>
+            </p>
         </section>
     </main>
 
+    <!-- Footer information shown at the bottom. -->
     <footer class="site-footer">
-        <p class="copyright">&copy; 2026 SkillSpring Online Learning.</p>
+        <p class="copyright">
+            &copy; 2026 SkillSpring Online Learning.
+        </p>
     </footer>
 </body>
 </html>

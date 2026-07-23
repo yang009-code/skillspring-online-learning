@@ -14,4 +14,4 @@ Sample accounts after the SQL import:
 Admin: admin / admin123
 Student: student / student123
 
-Change the sample passwords before final submission. Add your GitHub address and complete docs/MEDIA_SOURCES.md.
+Use the sample accounts to test the user and administrator features on the live website.

@@ -2,22 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <!-- This helps the same page work on both desktop and mobile. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- The title and description explain what this page is about. -->
     <meta name="description" content="Copyright and media information for SkillSpring.">
     <title>Copyright and Media | SkillSpring</title>
+
+    <!-- Common style, theme, and menu files for the website. -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
     <link id="themeStylesheet" rel="stylesheet" href="css/theme-light.css">
     <script src="js/static-theme.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
+
 <body>
-    <!-- This is one of the static information pages. -->
+    <!-- This part shows the logo and links at the top of the page. -->
     <header class="site-header">
         <div class="container header-row">
             <a class="brand" href="index.php">
                 <img src="images/logo.png" alt="SkillSpring logo">
             </a>
-            <nav class="main-nav open" aria-label="Information page navigation">
+
+            <!-- On mobile, this button is used to show the navigation links. -->
+            <button
+                id="menuButton"
+                class="menu-button"
+                type="button"
+                aria-expanded="false"
+                aria-controls="mainNavigation">
+                Menu
+            </button>
+
+            <nav
+                id="mainNavigation"
+                class="main-nav"
+                aria-label="Information page navigation">
                 <a href="index.php">Home</a>
                 <a href="courses.php">Courses</a>
                 <a href="about.php">About</a>
@@ -26,18 +48,39 @@
         </div>
     </header>
 
+    <!-- This is the main copyright and media information. -->
     <main class="container">
         <section class="card narrow-card">
             <h1>Copyright and Media</h1>
-            <p>The course descriptions and page text were written for this project. The course cover images were made for the project and can be replaced with the student’s own designs.</p>
-            <p>The three course preview videos are free stock videos downloaded for the assignment. Their exact source pages and creator names should be recorded in docs/MEDIA_SOURCES.md before submission.</p>
-            <p>Commercial course videos, logos, photographs, and written descriptions should not be copied without permission.</p>
-            <p><a class="btn" href="index.php">Return to Home</a></p>
+
+            <p>
+                The course descriptions and page text were written for this
+                project. The course cover images were made for the project
+                and can be replaced with the student’s own designs.
+            </p>
+
+            <p>
+                The website includes three local MP4 preview files to
+                demonstrate HTML5 video playback. They are used as sample
+                media for this web development course project.
+            </p>
+
+            <p>
+                Commercial course videos, logos, photographs, and written
+                descriptions should not be copied without permission.
+            </p>
+
+            <p>
+                <a class="btn" href="index.php">Return to Home</a>
+            </p>
         </section>
     </main>
 
+    <!-- Copyright text at the bottom of the page. -->
     <footer class="site-footer">
-        <p class="copyright">&copy; 2026 SkillSpring Online Learning.</p>
+        <p class="copyright">
+            &copy; 2026 SkillSpring Online Learning.
+        </p>
     </footer>
 </body>
 </html>
