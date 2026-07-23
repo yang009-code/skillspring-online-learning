@@ -16,7 +16,7 @@ The three preview files are in `media`:
 - `preview2.mp4`
 - `preview3.mp4`
 
-A replacement video can use the same file name. A 720p or 1080p MP4 is enough for this project. Very large 4K files may load slowly. The video source information belongs in `docs/MEDIA_SOURCES.md`.
+A replacement video can use the same file name, so the PHP page does not need to be changed.
 
 ## Templates
 

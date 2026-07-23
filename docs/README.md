@@ -31,4 +31,4 @@ The sample passwords should be changed before the final submission.
 
 Live website: `https://yang1cz.myweb.cs.uwindsor.ca/skillspring/`
 
-GitHub repository: add the final repository address here before submission.
+GitHub repository: `https://github.com/yang009-code/skillspring-online-learning`
